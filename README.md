@@ -1,4 +1,4 @@
-# Soccer Counter App
+# Counter App For Soccer
 
 Quick start:
 
