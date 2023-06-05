@@ -19,6 +19,8 @@ function scoreBoardOne(){
     homeStoreEl.textContent = homeScore;
 }
 
+console.log(scoreBoardOne);
+
 function scoreBoardTwo(){ 
      homeScore = homeScore + 2
      homeStoreEl.textContent = homeScore;
