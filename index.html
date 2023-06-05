@@ -1,0 +1,33 @@
+<html>    
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1> Premier League - Arsenal vs Manchester City </h1>
+	<div class="container_one">
+		<div class="column_two">
+            <h3>Arsenal</h3>
+            <h2 id="home-score">0</h2>
+			<div>
+					<button id = "home-score-btn-1" onclick="scoreBoardOne()">+1</button>
+					<button id = "home-score-btn-2" onclick="scoreBoardTwo()">+2</button>
+					<button id = "home-score-btn-3" onclick="scoreBoardThree()">+3</button>
+			</div>
+		</div>
+		<div class="container_two">
+			<div class="column_three">
+				<h3>Manchester</h3>
+                <h2 id="away-score">0</h2>
+				<div>
+					<button id = "away-score-btn-1" onclick = "scoreBoardOneAway()">+1</button>
+					<button id = "away-score-btn-2" onclick = "scoreBoardTwoAway()">+2</button>
+					<button id = "away-score-btn-3" onclick = "scoreBoardThreeAway()">+3</button>
+				</div>
+			</div>
+		</div>
+		<script src="index.js"></script>
+        <style>
+        @import url('https://fonts.cdnfonts.com/css/60s-scoreboard');
+        </style>      
+</body>
+</html>
